@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:In_class_WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#FFAE3636">
+        <Button x:Name="btnClickMe" Content="Click Me" HorizontalAlignment="Left" Margin="73,85,0,0" VerticalAlignment="Top" Height="78" Width="113" IsDefault="True" Click="Button_Click"/>
+        <TextBox x:Name="Txt_Favorite_Color" HorizontalAlignment="Left" Margin="400,164,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="33" TextChanged="Txt_Favorite_Color_TextChanged"/>
+        <Label Content="Enter your favorite color:" HorizontalAlignment="Left" Margin="243,168,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Txt_Enter_Name" HorizontalAlignment="Left" Margin="400,217,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" Height="33" KeyDown="Txt_Enter_Name_KeyDown"/>
+        <Label Content="Enter your name&#xD;&#xA;" HorizontalAlignment="Left" Margin="243,216,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
